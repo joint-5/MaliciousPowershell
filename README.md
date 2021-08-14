@@ -3,4 +3,4 @@ This project was sponsored by the Joint Artificial Intelligence Center, in order
 
 The machine learning models are written in Python, and are largely dependent on the scikit-learn library in order to sustain their functionality. The models included here are a logistic regression (lr.py), a support vector machine (svm.py), a BaggingClassifier/DecisionTree (bdt.py), and a neural network (nn.py). In the near future, all of these models will get remade using SMOTE, a dataset balancing tool available in Python's imbalanced-learn library that should make the outcome more relevant.
 
-The parser...
+The parser works by extracting recurring cmdlet, functions, and alias in each selected Powershell script, and outputs it into json or csv file. This is useful when users wish to create their own dataset from their own custom set of scripts. 
